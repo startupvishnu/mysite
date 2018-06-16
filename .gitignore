@@ -1,0 +1,47 @@
+*.py[co]
+.idea/
+.venv
+.env
+local_settings.py
+db.sqlite3
+/media/
+.DS_Store
+*~
+/logs/
+/media_files/
+/static_files/
+/whoosh_index/
+
+# Installer logs
+pip-log.txt
+logs/
+*.log
+*.numbers
+
+# Unit test / coverage reports
+.coverage
+.tox
+.log
+
+#special files
+ignore*
+node_modules
+main-built*.*
+
+*uploaded documents
+docs/_build
+assets
+
+#pyenv/virtualenv stuff
+.python-version
+
+*.swp
+
+# py.test
+*.cache/
+*__pycache__/*
+htmlcov/
+
+# vagrant
+.vagrant/
+.vscode/

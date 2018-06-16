@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <h1>Hello, World!</h1>
+        <p>We are all building Startup Vishnu - a Startup for Startups</p>
+
+        <h2>We belong to {{ name_of_organization }}.</h2>
+
+        <h2>This is the requested path - {% if request.domain%}{{ request.domain }}{% else%}Oops! This attribute is not present.{% endif%} {{ request.path }}</h2>
+
+        {% for i in "BALU VARANASI" %}
+            <p>{{ i }}</p>
+        {% endfor %}
+
+    </body>
+</html>
